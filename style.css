@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* para de esquecer disso! ↑ */
+  
+  body {
+    background-color: antiquewhite;
+    /* background-image: linear-gradient(#f0c7ce, #823b8a, #19dbda); */
+  }
+  
+  header {
+    background-color: #ffcf00;
+  }
+  
+  #logoDiv {
+    width: 9em;
+  
+    display: inline-block;
+  }
+  
+  #logo {
+    width: 75%;
+    margin-left: 2rem;
+  }
+  
+  nav {
+    /* background-color: lightgrey; */
+    display: inline-block;
+    width: 80%;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    color: black;
+    font-size: 220%;
+    font-weight: bold;
+  }
+  
+  /* main {
+    border:solid red;
+  } */
+  
+  #OneSection {
+    margin-top: 3rem;
+    background-color: #f4b418;
+    width: 90rem;
+    border-radius: 1rem;
+    border: solid #f4b418;
+    margin-left: 5rem;
+  }
+  
+  .divDaMain {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  
+  span {
+    display: inline;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 1em;
+  }
+  
+  .theForm {
+    /* margin-bottom: 16%; */
+    margin-top: 16%;
+    padding-left: 32px;
+  }
+  
+  .paragraph {
+    width: 45em;
+    height: 15em;
+    padding-top: 32px;
+    display: inline-block;
+    margin-left: 4rem;
+    background-color: #f4b418;
+    border-radius: 1rem;
+    border: solid #f4b418;
+  }
+  
+  #theFooter {
+    background-color: #ffcf00;
+  }
+  
+  .divMain {
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+  
+  .space {
+    margin-bottom: 2em;
+    margin-top: 1em;
+  }
+  #opcoesDeDias {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 1em;
+  }
+  
+  #diviImg {
+    width: 10%;
+    margin-left: 2rem;
+    display: inline-block;
+  }
+  
+  #aImg {
+    width: 95%;
+  }
+  
+  #listDiv {
+    width: 15em;
+    height: 5em;
+    display: inline-block;
+    /* margin-top: 3rem; */
+    padding-left: 6em;
+    /* padding-top: 8em; */
+    font-size: 150%;
+    font-style: italic;
+  }
+  .aList {
+    padding-bottom: 2em;
+  }
+  .aParagraph {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 150%;
+    margin-left: 2rem;
+    display: inline-block;
+  }
+  #creatorName {
+    color: rgb(61, 51, 255);
+    margin-bottom: 1em;
+    margin-left: 6rem;
+    font-size: 150%;
+    display: inline-block;
+    font-weight: bold;
+  }
+  /* header {
+    margin-left: 8rem;
+  } */
+  

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+  <head>
+    <!-- <script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.f742b80f43c5a2e0e619b0d97b5886cd.js"></script>
+    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.be879265d.js"></script> -->
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Os Correios</title>
+  </head>
+  <body>
+    <header>
+      <div id="logoDiv">
+        <img id="logo" src="folder/caixa.png" alt="imagem do logotipo" />
+      </div>
+
+      <nav>
+        &nbsp;&nbsp;Início &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rastreio
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logística
+      </nav>
+    </header>
+
+    <main>
+      <section id="OneSection">
+        <div class="divDaMain">
+          <span>Rastreie a sua encomenda:</span>
+
+          <span>
+            <form class="theForm">
+              <label for="Nome"> NOME: </label>
+              <input
+                id="Nome"
+                type="text"
+                name="Nome"
+                placeholder="Escreva seu nome"
+              />
+            </form>
+
+            <!-- https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/form#attr-accept -->
+
+            <form class="theForm">
+              <label for="Cep"> CEP: </label>
+              <input
+                id="cep"
+                type="text"
+                name="cep"
+                placeholder="Escreva seu cep"
+              />
+            </form>
+          </span>
+        </div>
+
+        <div class="divMain">
+          <label id="opcoesDeDias"
+            >Selecione os dias disponíveis para receber.
+          </label>
+        </div>
+
+        <div class="divMain">
+          <input
+            id="segunda"
+            type="radio"
+            name="opcoesDeDias"
+            value="segunda"
+          />
+          <label for="segunda"> Segunda - feira </label>
+
+          <input
+            id="segunda"
+            type="radio"
+            name="opcoesDeDias"
+            value="segunda"
+          />
+          <label for="segunda"> Terça - feira </label>
+
+          <input
+            id="segunda"
+            type="radio"
+            name="opcoesDeDias"
+            value="segunda"
+          />
+          <label for="segunda"> Quarta - feira </label>
+
+          <input
+            id="segunda"
+            type="radio"
+            name="opcoesDeDias"
+            value="segunda"
+          />
+          <label for="segunda"> Quinta - feira </label>
+
+          <input
+            id="segunda"
+            type="radio"
+            name="opcoesDeDias"
+            value="segunda"
+          />
+          <label for="segunda"> Sexta - feira </label>
+        </div>
+
+        <span>Escolha a Loja para a retirada.</span>
+
+        <div class="space">
+          <label for="one">Loja 1 </label>
+          <input type="checkbox" id="lojaUM" name="loja" value="lojaUM" />
+
+          <label for="two"> Loja 2 </label>
+          <input type="checkbox" id="lojaDois" name="loja" value="lojaDois" />
+
+          <label for="tree"> Loja 3 </label>
+          <input type="checkbox" id="lojaTres" name="loja" value="lojaTres" />
+        </div>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>&nbsp;Enviar&nbsp;</button>
+      </section>
+
+      <section id="twoSection">
+        <div class="divDaMain">
+          <p class="paragraph">
+            ➣ Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+            blanditiis dignissimos y ipsum dolor sit amet consectetur
+            adipisicing elit. Placeat cumque nostrum ipsam suscipit cupiditate
+            omnis qui? Impedit, aliquid asperiores recusandae repudiandae saepe
+            velit delectus magnam! Aliquam ipsum aut ratione ad! nostrum est ea
+            aspernatur dolorem dicta, accusamus explicabo! Consequatur esse odio
+            error voluptatem illo ad architecto, temporibus dignissimos ab!
+          </p>
+
+          <p class="paragraph">
+            ➣ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt,
+            recusandae. Quas sit, tempore accusantium, ab perspiciatis animi
+            minima delectus iste vitae ea sequi expedita officiis consequatur
+            aliquam deserunt, lo Lorem ipsum, dolor sit amet consectetur
+            adipisicing elit. Voluptatem eius debitis quia autem odio
+            reprehenderit nobis incidunt, suscipit quas tempora cupiditate esse
+            error rerum deleniti amet sunt cum officia eos! voluptates
+            doloribus!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="theFooter">
+      <section>
+        <div id="diviImg">
+          <img
+            id="aImg"
+            src="folder/caminhao.png"
+            alt="imagem de um caminhão"
+          />
+        </div>
+
+        <div id="listDiv">
+          <ol type="a">
+            <li>Lojas</li>
+
+            <li>Fale Conosco</li>
+
+            <li>Trabalhe Conosco</li>
+          </ol>
+        </div>
+
+        <div id="listDiv">
+          <ol type="a" class="aList">
+            <li>LinkedIn</li>
+
+            <li>Facebook</li>
+            <li>Instagram</li>
+          </ol>
+        </div>
+        <p class="aParagraph">
+          Projeto Criado Pela Aluna:
+        </p>
+
+        <p id="creatorName">
+          Lorena Nogueira!
+        </p>
+      </section>
+    </footer>
+    <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.be960f43b.js"></script>
+  </body>
+</html>
